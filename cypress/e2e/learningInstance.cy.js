@@ -11,8 +11,9 @@ describe("Learning Instance Test", () => {
 
   it("should create a learning instance with user-defined fields", function () {
     LoginPage.login(Cypress.env("username"), Cypress.env("password"));
-    LearningInstancePage.createLearningInstance(this.data.instanceName, this.data.fieldName);
-    LearningInstancePage.assertInstanceCreated(this.data.instanceName);
-    HomePage.logout();
+    LearningInstancePage.navigateToAI();
+    LearningInstancePage.navigateToDocumentAutomation();
+    LearningInstancePage.createLearningInstance();
+    LearningInstancePage.assertInstanceCreated("test233");
   });
 });

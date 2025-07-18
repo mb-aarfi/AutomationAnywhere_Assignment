@@ -25,7 +25,6 @@ class BotPage {
 
         cy.get('span.pathfinder-items__item-label').then($els => {
           $els.each((i, el) => {
-            // Log the text and opacity of each element for debugging
             console.log(`Element ${i}:`, el.innerText, Cypress.$(el).css('opacity'));
           });
         });
