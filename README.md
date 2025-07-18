@@ -1,14 +1,14 @@
 # AutomationAnywhere_Assignment
 
-This project contains automated end-to-end tests for Automation Anywhere’s cloud platform using [Cypress](https://www.cypress.io/). The tests cover key user flows such as creating a Learning Instance and a Bot with a Message Box, ensuring that core functionalities work as expected.
+This project contains automated end-to-end tests for Automation Anywhere’s cloud platform using Cypress. The tests cover key user flows such as creating a Learning Instance and a Bot with a Message Box, ensuring that core functionalities work as expected.
 
 ## Features
 
-- **Learning Instance Test:**  
-  Automates the process of logging in, creating a new Learning Instance with user-defined fields, verifying its creation, and logging out.
-
 - **Message Box Bot Test:**  
   Automates logging in, navigating to the bot creator, creating a bot with a message box, verifying the bot’s creation, and logging out.
+  
+- **Learning Instance Test:**  
+  Automates the process of logging in, creating a new Learning Instance with user-defined fields, verifying its creation, and logging out.
 
 ## Project Structure
 
@@ -24,53 +24,6 @@ AutomationAnywhere_Assignment/
   ├── package.json       # Project dependencies
   └── README.md
 ```
-
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or above recommended)
-- [npm](https://www.npmjs.com/)
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd AutomationAnywhere_Assignment
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables:**
-   - Edit `cypress.env.json` with your Automation Anywhere credentials:
-     ```json
-     {
-       "username": "your-email@example.com",
-       "password": "yourPassword"
-     }
-     ```
-
-### Running the Tests
-
-- **Open Cypress Test Runner:**
-  ```bash
-  npx cypress open
-  ```
-  This will launch the Cypress UI where you can run tests interactively.
-
-- **Run tests in headless mode:**
-  ```bash
-  npx cypress run
-  ```
-
-### Reporting
-
-- Test results are generated using the [mochawesome](https://github.com/adamgruber/mochawesome) reporter.
-- After running tests, a detailed HTML report will be available in the `cypress/reports` directory (if configured).
 
 ## Configuration
 
@@ -97,7 +50,7 @@ AutomationAnywhere_Assignment/
 - **Extending Tests:**  
   Add new test cases in the `e2e/` directory and corresponding page objects in `pages/`.
 
-## License
+## Demo
 
 This project is licensed under the ISC License.
 
