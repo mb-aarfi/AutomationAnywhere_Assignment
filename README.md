@@ -1,8 +1,8 @@
 # AutomationAnywhere_Assignment
 
 This project is a Cypress automation framework built using the Page Object Model (POM) pattern. It demonstrates two core use cases for Automation Anywhere’s cloud platform:
-Use Case 1: Create a Message Box Bot and assert its creation.
-Use Case 2: Create a Learning Instance with user-defined fields and assert its creation.
+- Use Case 1: Create a Message Box Bot and assert its creation.
+- Use Case 2: Create a Learning Instance with user-defined fields and assert its creation.
 
 ## Features
 
