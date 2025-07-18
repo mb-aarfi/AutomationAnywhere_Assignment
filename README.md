@@ -1,6 +1,8 @@
 # AutomationAnywhere_Assignment
 
-This assignment contains automated end-to-end tests for Automation Anywhere’s cloud platform using Cypress. The tests cover key user flows such as creating a Learning Instance and a Bot with a Message Box, ensuring that core functionalities work as expected.
+This project is a Cypress automation framework built using the Page Object Model (POM) pattern. It demonstrates two core use cases for Automation Anywhere’s cloud platform:
+Use Case 1: Create a Message Box Bot and assert its creation.
+Use Case 2: Create a Learning Instance with user-defined fields and assert its creation.
 
 ## Features
 
