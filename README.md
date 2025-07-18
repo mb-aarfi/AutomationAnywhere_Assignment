@@ -4,14 +4,6 @@ This project is a Cypress automation framework built using the Page Object Model
 - Use Case 1: Create a Message Box Bot and assert its creation.
 - Use Case 2: Create a Learning Instance with user-defined fields and assert its creation.
 
-## Features
-
-- **Message Box Bot Test:**  
-  Automates logging in, navigating to the bot creator, creating a bot with a message box, verifying the bot’s creation, and logging out.
-  
-- **Learning Instance Test:**  
-  Automates the process of logging in, creating a new Learning Instance with user-defined fields, verifying its creation, and logging out.
-
 ## Project Structure
 
 ```
