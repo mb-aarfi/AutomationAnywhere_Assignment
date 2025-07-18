@@ -36,8 +36,8 @@ AutomationAnywhere_Assignment/
 ## Folder Details
 
 - **e2e/**: Contains the main test files:
-  - `learningInstance.cy.js`: Tests Learning Instance creation.
   - `messageBox.cy.js`: Tests Bot creation with a Message Box.
+  - `learningInstance.cy.js`: Tests Learning Instance creation.
 - **pages/**: Page Object Model files for modular and reusable test code.
 - **fixtures/**: Static data for tests.
 - **support/**: Custom commands and Cypress support files.
