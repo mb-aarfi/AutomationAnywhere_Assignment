@@ -4,6 +4,14 @@ This project is a Cypress automation framework built using the Page Object Model
 - Use Case 1: Create a Message Box Bot and assert its creation.
 - Use Case 2: Create a Learning Instance with user-defined fields and assert its creation.
 
+## Demo
+
+
+
+https://github.com/user-attachments/assets/70077d96-32b3-4c33-93fd-77a91da634a1
+
+
+
 ## Project Structure
 
 ```
@@ -35,6 +43,3 @@ AutomationAnywhere_Assignment/
 - **pages/**: Page Object Model files for modular and reusable test code.
 - **fixtures/**: Static data for tests.
 - **support/**: Custom commands and Cypress support files.
-
-## Demo
-
