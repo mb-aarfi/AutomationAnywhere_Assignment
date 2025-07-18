@@ -1,6 +1,6 @@
 # AutomationAnywhere_Assignment
 
-This project contains automated end-to-end tests for Automation Anywhere’s cloud platform using Cypress. The tests cover key user flows such as creating a Learning Instance and a Bot with a Message Box, ensuring that core functionalities work as expected.
+This assignment contains automated end-to-end tests for Automation Anywhere’s cloud platform using Cypress. The tests cover key user flows such as creating a Learning Instance and a Bot with a Message Box, ensuring that core functionalities work as expected.
 
 ## Features
 
@@ -42,18 +42,5 @@ AutomationAnywhere_Assignment/
 - **fixtures/**: Static data for tests.
 - **support/**: Custom commands and Cypress support files.
 
-## Notes
-
-- **Credentials:**  
-  Do not commit real credentials to version control. Use environment variables or a `.env` file (and add it to `.gitignore`).
-
-- **Extending Tests:**  
-  Add new test cases in the `e2e/` directory and corresponding page objects in `pages/`.
-
 ## Demo
 
-This project is licensed under the ISC License.
-
----
-
-Let me know if you want to add or customize any section!
