@@ -1,0 +1,6 @@
+{
+  "botName": "TestMessageBot23",
+  "messageText": "Hello Automation Anywhere!",
+  "instanceName": "TestLearningInstance",
+  "fieldName": "CustomField1"
+}
